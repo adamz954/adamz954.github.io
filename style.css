@@ -11,7 +11,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* Ensures content is centered vertically too */
+}
 
+body {
     /* Existing styles above + these additions */
     background-image: url('background.png'); /* Ensure this matches your filename */
     background-size: cover;          /* Makes it fill the screen */

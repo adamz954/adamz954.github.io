@@ -12,13 +12,18 @@ body {
     align-items: center;
     height: 100vh;
     
-    /* Background styles */
-    background-image: url('background.png'); 
-    background-size: cover;
-    background-position: center;
+    /* Make the image responsive */
+    background-image: url('background.png');
+    background-size: cover;          /* Forces the image to cover the full area */
+    background-position: center;     /* Keeps the most important part (the center) visible */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;    /* Prevents the background from jittering on scroll */
     color: white;
+
+    /* Crucial for modern responsiveness: */
+    min-height: 100vh;               /* Ensures the body is at least as tall as the screen */
+    width: 100%;                     /* Ensures it takes up the full width */
+    margin: 0;
 }
 
 h1 {

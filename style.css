@@ -1,6 +1,7 @@
 /* Import Google Sans */
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&display=swap');
 
+/* 1. Global Reset & Body Styling */
 body {
     font-family: 'Google Sans', sans-serif;
     text-align: center;
@@ -10,43 +11,57 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     
-    /* Make the image responsive */
+    /* Default Background (Desktop) */
     background-image: url('background.png');
-    background-size: cover;          /* Forces the image to cover the full area */
-    background-position: center;     /* Keeps the most important part (the center) visible */
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;    /* Prevents the background from jittering on scroll */
+    background-attachment: fixed;
     color: white;
-
-    /* Crucial for modern responsiveness: */
-    min-height: 100vh;               /* Ensures the body is at least as tall as the screen */
-    width: 100%;                     /* Ensures it takes up the full width */
-    margin: 0;
 }
 
+/* 2. Header Styling */
 h1 {
-    font-family: 'Google Sans', sans-serif; /* Ensuring it uses the font */
-    color: whitesmoke;                           /* Sets text color to black */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle drop shadow */
-    font-size: 3rem;                        /* Adjust size as needed */
+    font-family: 'Google Sans', sans-serif;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 3rem;
+    margin-bottom: 20px;
 }
 
+/* 3. Button (Link) Styling */
 a {
-    /* Basic button shape */
     display: inline-block;
     padding: 12px 30px;
     margin: 10px;
-    background-color: #4285F4; /* A modern blue */
+    background-color: #4285F4;
     color: white;
     text-decoration: none;
-    border-radius: 50px;       /* This creates the oval shape */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
     font-weight: bold;
 }
 
 a:hover {
-    background-color: #357ae8; /* Darker blue on hover */
+    background-color: #357ae8;
     cursor: pointer;
+}
+
+/* 4. Responsive Mobile Overrides */
+@media (max-width: 768px) {
+    body {
+        /* Swap to mobile-optimized background */
+        background-image: url('background-mobile.png');
+        background-attachment: scroll; 
+    }
+    
+    h1 {
+        font-size: 2rem; /* Make header smaller on mobile */
+    }
+
+    a {
+        padding: 10px 20px; /* Adjust button size for smaller screens */
+    }
 }

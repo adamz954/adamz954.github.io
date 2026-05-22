@@ -13,7 +13,7 @@ body {
     height: 100vh;
     
     /* Background styles */
-    background-image: url('background2.png'); 
+    background-image: url('background.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,4 +26,22 @@ h1 {
     color: whitesmoke;                           /* Sets text color to black */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle drop shadow */
     font-size: 3rem;                        /* Adjust size as needed */
+}
+
+a {
+    /* Basic button shape */
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 10px;
+    background-color: #4285F4; /* A modern blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;       /* This creates the oval shape */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #357ae8; /* Darker blue on hover */
+    cursor: pointer;
 }

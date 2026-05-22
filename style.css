@@ -20,3 +20,10 @@ body {
     background-attachment: fixed;
     color: white;
 }
+
+h1 {
+    font-family: 'Google Sans', sans-serif; /* Ensuring it uses the font */
+    color: black;                           /* Sets text color to black */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a subtle drop shadow */
+    font-size: 3rem;                        /* Adjust size as needed */
+}

@@ -25,7 +25,7 @@ body {
 /* 2. Header Styling */
 h1 {
     font-family: 'Google Sans', sans-serif;
-    color: black;
+    color: whitesmoke;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 3rem;
     margin-bottom: 20px;

@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     
     /* Default Background (Desktop) */
-    background-image: url('background.png');
+    background-image: url('background3.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body {
 /* 2. Header Styling */
 h1 {
     font-family: 'Google Sans', sans-serif;
-    color: whitesmoke;
+    color: #FFFFFF;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 4rem;
     margin-bottom: 20px;
@@ -54,7 +54,7 @@ a:hover {
 @media (max-width: 768px) {
     body {
         /* Swap to mobile-optimized background */
-        background-image: url('background-mobile.png');
+        background-image: url('background3.png');
         background-attachment: scroll; 
     }
     

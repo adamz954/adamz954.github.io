@@ -36,7 +36,7 @@ a {
     display: inline-block;
     padding: 12px 30px;
     margin: 10px;
-    background-color: #4285F4;
+    background-color: #D47474;
     color: white;
     text-decoration: none;
     border-radius: 50px;
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-    background-color: #357ae8;
+    background-color: #9E5959;
     cursor: pointer;
 }
 

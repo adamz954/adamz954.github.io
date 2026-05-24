@@ -37,7 +37,7 @@ a {
     padding: 12px 30px;
     margin: 10px;
 /*    background-color: #D47474; */
-    background-color: #0C173B;
+    background-color: #132357;
     color: white;
     text-decoration: none;
     border-radius: 50px;
@@ -49,7 +49,7 @@ a {
 
 a:hover {
 /*    background-color: #9E5959; */
-    background-color: #09112E;
+    background-color: #101C45;
     cursor: pointer;
 }
 
